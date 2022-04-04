@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>Assignment-4</head>
+<h1>Question one</h1>
+<p>insert the values 4 and 5 in an given array</p>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+ var array =[1,2,3,7,8,6,9,10]
+ var index=5;
+ var index1=6;
+ //document.getElementById("demo2").innerHTML=array;
+document.getElementById("demo").innerHTML=array.splice(index, 5,4);
+document.getElementById("demo1").innerHTML=array.splice(index1, 5,5,6,9,10);
+console.log(array);
+</script>
